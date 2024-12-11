@@ -16,8 +16,8 @@ const Hero = () => {
         </p>
         {/* button */}
         <div className="hero-btn-group">
-            <button className='btn-primary btn'>primary</button>
-            <button className='btn-secondary btn'>secondary</button>
+            <button className='btn-primary'>Download CV</button>
+            <button className='btn-secondary'>Hire Me</button>
         </div>
     </div>
     {/* hero image section */}
