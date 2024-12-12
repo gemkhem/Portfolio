@@ -1,26 +1,29 @@
 .hero-container {
+    padding: 0;
+    margin: 0;
     height: 85vh;
-    padding-left: 7rem;
+    padding-left: 3rem;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
- 
+
 }
-.hero-content .fullname{
+
+.hero-content .fullname {
     padding-bottom: .35rem;
 }
 
-.hero-content .position{
+.hero-content .position {
     padding-bottom: 1.2rem;
     color: gray;
 }
-.hero-content .desc{
+
+.hero-content .desc {
     width: 40%;
     padding-bottom: 3rem;
 }
-.btn-primary, .btn-secondary{
-    margin-right: 15px; 
-    background:#89CFF0; 
+
+.btn {
     padding: .5rem 2rem;
     color: white;
     font-weight: 500;
@@ -28,6 +31,16 @@
     border-radius: 8px;
 }
 
- .btn-secondary{
+.btn-primary {
+    margin-right: 20px;
+    background: #89CFF0;
+}
+
+.btn-secondary {
     background: #FF0000;
+    
+}
+.hero_image_section{
+    height: 72vh;
+    width: 8rem;
 }
